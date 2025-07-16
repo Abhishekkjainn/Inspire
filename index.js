@@ -108,7 +108,7 @@ app.get('/', (req, res) => {
             <li>Detailed statistics and metadata</li>
             <li>Consistent, developer-friendly error handling</li>
           </ul>
-          <div class="note">Base URL: <code>http://localhost:3000</code> (or your deployed server)</div>
+          <div class="note">Base URL: <code>https://inspire-api.vercel.app/</code> (or your deployed server)</div>
         </section>
         <section id="getQuotes">
           <h2>GET /v1/getQuotes/quantity=:quantity</h2>
