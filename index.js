@@ -97,6 +97,16 @@ app.get('/', (req, res) => {
         </nav>
       </aside>
       <main>
+        <section id="developer">
+          <h2>Developer</h2>
+          <ul class="feature-list">
+            <li><b>GitHub:</b> <a href="https://github.com/Abhishekkjainn" target="_blank">@Abhishekkjainn</a></li>
+            <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/abhishekk-jainn/" target="_blank">@abhishekk-jainn</a></li>
+            <li><b>Portfolio:</b> <a href="https://abhishekjain.vercel.app" target="_blank">abhishekjain.vercel.app</a></li>
+            <li><b>Resume:</b> <span style="color:#64748b;">(Not Provided)</span></li>
+            <li><b>Email:</b> <a href="mailto:jainabhishek1904@gmail.com">jainabhishek1904@gmail.com</a></li>
+          </ul>
+        </section>
         <section id="overview">
           <h2>Overview</h2>
           <p>This API provides access to a large, curated collection of quotes, with advanced search, filtering, and statistics. Designed for developers, educators, and anyone who loves inspiration.</p>
@@ -342,6 +352,7 @@ app.get('/', (req, res) => {
           </ul>
           <div class="note">For more help, open an issue or contact the maintainer.</div>
         </section>
+        
       </main>
     </div>
   </body>
